@@ -1,0 +1,157 @@
+*{/*Utilizamos el selector universal*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+/*Estilo de contenedor*/
+.contenedor{
+    border: 10px solid #903;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: white;
+    padding: 5px;
+}
+
+/*Estilo de la cabecera*/
+header{
+    border: 1px solid #903;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+}
+
+header h1{
+    color: #42c3d4;
+}
+
+header p{
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-bottom: 10px;  
+}
+
+/*Estilo de las tablas*/
+.tablas{
+    border: 1px solid #903;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    height: 180px;
+}
+/*como la etiqueta caption es común a todas las tablas,
+no le asigno clase ni id, al estar también un número
+muy limitado de veces*/
+caption{
+    font-weight: bold;
+}
+/*Estilo de la tabla de Profesores*/
+#prof{
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+/*Estilo de la tabla Directora*/
+#director{
+    margin-top: 10px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+#jefe_est{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    float: left;
+}
+.titulos{
+    border: 1px solid #903;
+    padding: 20px;
+    margin-top: 10px;
+}
+.titulos h3{
+    text-align: center;
+    font-size: 40px;
+}
+.titulos ol>li{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.titulos ol>ul>li{
+    padding: 1px;
+    margin-left: 10px;
+}
+
+/*Estilo del formulario*/
+.formulario{/*Estilo para la caja de formulario*/
+    border: 1px solid #903;
+    margin-top: 10px;
+}
+#form{/*Estilo para el h1 del formulario*/
+    text-align: center;
+}
+.datos_1{
+    /*Estilo para la caja de los datos personales*/
+    padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+.insert_nombre{
+    /*Estilo para el campo del nombre*/
+    float: left;
+	width: 30%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+.insert_apellidos{
+    /*Estilo para el campo de los apellidos*/
+    float: left;
+	width: 30%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+.insert_tlf{
+    /*Estilo para el campo del número de teléfono*/
+    float: left;
+	width: 30%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+.insert_email{
+    float: left;
+	width: 30%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+#notas label{
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+textarea{
+    margin-top: 15px;
+}
+
+#botones{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 25px;
+    margin-right: 5px;
+    padding: 5px;
+}
